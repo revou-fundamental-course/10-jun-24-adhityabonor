@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="html-container">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter Suhu Celsius Fahrenheit</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header-footer-container">
+        <h1>Konverter Suhu Celsius Fahrenheit</h1>
+    </header>
+
+<hr>
+
+<!-- Main Content -->
+    <main>
+        <h4 class="celsius-container">
+            Masukkan suhu derajat Celsius (&deg;C)
+        </h4>
+
+        <!-- Section Celsius -->
+        <section class="celsius2-container">
+            <header >
+                <h3 >Celsius (&deg;C):</h3>
+            </header>
+
+            <section>
+                <textarea id="inputCelcius" type="text" placeholder="Suhu Celcius"></textarea>
+
+                <section>
+                    <button class="button blue-color" calc_buttons" id="convertButton">Konversi</button>
+                    <button class="button black-color" calc_buttons" id="resetButton"">Reset</button>
+                    <button class="button red-color" calc_buttons" id="convertReverse">Reverse</button>
+                </section>
+            </section>
+        </section>
+
+        <section class="result-container">
+            <!-- Section Fahrenheit -->
+            <section class="Fahrenheit-container">
+                <header>
+                    <h3>Fahrenheit (&deg;F):</h3>
+                </header>
+
+                <section>
+                    <textarea id="outputFahrenheit" type="text" placeholder="Suhu Fahrenheit"></textarea>
+                </section>
+            </section>
+
+
+            <!-- Section Calculate -->
+            <section class="convertion-container">
+                <header>
+                    <h3>Convertion Calculate:</h3>
+                </header>
+
+                <section>
+                    <textarea id="formula" type="text" placeholder="Formula kalkulasi" readonly></textarea>
+                </section>
+            </section>
+        </section>
+
+        <hr/>
+
+
+        <!-- Section Formula/Info -->
+        <section class="formula-container">
+            <header>
+                <h1>Cara Konversi Dari Celsius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+            </header>
+
+            <p>
+                Suhu <span class="subject-info">S</span> dalam derajat Fahrenheit (&deg;F)
+                 sama <span class="subject-info">S</span> dengan suhu dalam derajat Celsius (&deg;C)
+            </p>
+
+            <p>
+                <span class="subject-info">S</span><sub>(&deg;F)</sub> = 
+                <span class="subject-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32
+            </p>
+
+            <p>
+                <span class="subject-info">S</span><sub>(&deg;C)</sub> = 
+                <span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) x 5/9
+            </p>
+
+        </section>
+
+    </main>
+
+    <!--Ini Link Javascript -->
+    <script src="js/script.js"></script>
+
+<hr>
+
+    <footer class="header-footer-container">
+        Copyright (C) 2024 Adhitya Bonor Immanuel Immanuel
+    </footer>
+ 
+</hr>
+    
+</body>
+
+</html>
+            
