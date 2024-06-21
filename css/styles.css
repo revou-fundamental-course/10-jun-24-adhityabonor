@@ -105,3 +105,31 @@ textarea {
     font-style: italic;
     font-family: math;
 }
+
+html {
+    font-size: 1em;
+  }
+  
+h1 {
+    font-size: 2rem;
+  }
+  
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }  
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  
